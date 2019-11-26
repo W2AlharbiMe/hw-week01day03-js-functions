@@ -1,6 +1,5 @@
-const generateNumber = function(n) {
-  n = n ? n : 6;
-  return Math.round(Math.random() * n);
+const generateNumber = function(n = 6) {
+  return Math.floor(Math.random() * 6) + 1;
 };
 
 const rollDice = function(n) {
